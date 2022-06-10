@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="main">
+
+        <div class="nav">
+            <img src="./assets/logo.png">
+            <div class="call">
+                <div class="icon">
+                    <span><i class="fa fa-phone" id="icon"></i></span>
+            </div>
+            <div class="callnow">Call Now
+               <span id="light"> 02199260256</span>
+            </div>
+        </div>
+        <div class="send">
+            <div class="icon">
+                <span><i class="fa fa-envelope" id="icon"></i></span>
+            </div>
+            <div class="message">
+                Send Message
+                <span id="light">complain@bsek.edu.pk</span>
+            </div>
+        </div>
+        <div class="location">
+            <div class="icon">
+                <span><i class="fa fa-map"></i></span>
+            </div>
+            <div class="locate">
+                Our Location<br>
+                <span id="light">Block 5 Nazimabad,Karachi</span>
+
+            </div>
+        </div>
+    </div>
+    <div class="form">
+        <h3>Check From Here</h3>
+        <input type="text" name="" id="username" placeholder="Enter Your Name">
+       
+        <label for="error" id="error"></label>
+        <input type="text" name="" id="fathername" placeholder="Enter Father Name">
+        <input type="text" name="" id="rollnumber" placeholder="Enter roll number">
+        <button onClick="checkResult()"><a href="#sheet">Check Result</a></button>
+    </div>
+</div>
+<div class="sheet" id="sheet">
+<div class="tpart"></div>
+<div class="mpart">
+    <div class="npart">
+        <div class="line1">Examination <span id="ann">Annual</span><span id="ann">2021</span></div>
+        <div class="line2">Name:
+            <div class="naam" id="uname"></div>
+        </div>
+        <div class="line3">
+            Fahter Name: 
+            <div class="naam" id="fname"></div>
+        </div>
+        <div class="line4">
+            Roll Number
+            <div class="naam" id="rnumber"></div>
+        </div>
+        <div class="line5">
+            Address of School:
+            <span id="ann">Iqra Tarbiat-Ul-Atfal Secondary School</span>
+        </div>
+    </div>
+    <div class="spart">
+        <div class="serial">
+            <div class="s-no">S-No</div>
+            <div class="s-name">SUBJECTS</div>
+            <div class="total">Total Marks</div>
+            <div class="remarks">Remarks</div>
+        </div>
+        <div class="serial">
+            <div class="s-no">1</div>
+            <div class="s-name">Pshychology</div>
+            <div class="total">70</div>
+            <div class="remarks">Remarks</div>
+        </div>
+        <div class="serial">
+            <div class="s-no">2</div>
+            <div class="s-name">Pst</div>
+            <div class="total">60</div>
+            <div class="remarks">Remarks</div>
+        </div>
+        <div class="serial">
+            <div class="s-no">3</div>
+            <div class="s-name">Chemistry</div>
+            <div class="total">57</div>
+            <div class="remarks">Remarks</div>
+        </div>
+        <div class="serial">
+            <div class="s-no">4</div>
+            <div class="s-name">Physics</div>
+            <div class="total">80</div>
+            <div class="remarks">Remarks</div>
+        </div>
+        <div class="serial">
+            <div class="s-no">5</div>
+            <div class="s-name">Urdu</div>
+            <div class="total">43</div>
+            <div class="remarks">Remarks</div>
+        </div>
+        <div class="serial">
+            <div class="s-no">6</div>
+            <div class="s-name">English</div>
+            <div class="total">54</div>
+            <div class="remarks">Remarks</div>
+        </div>
+        <div class="serial">
+            <div class="s-no">Grand Total</div>
+            <div class="s-name">366/850</div>
+            <div class="total">Grade</div>
+            <div class="remarks">c</div>
+        </div>
+    </div>
+</div>
+<div class="bpart"></div>
+</div>
+    <script src="app.js"></script>
+</body>
+</html>

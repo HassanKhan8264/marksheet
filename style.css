@@ -1,0 +1,324 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-image: url(./assets/bs.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.main{
+    /* border: 1px solid red; */
+    /* margin: 10px auto; */
+    width: 99.80%;
+    height: auto;
+    height: 99.80vh;
+}
+.nav{
+    /* border: 1px solid red; */
+    width: 100%;
+    /* margin: 50px auto; */
+    background-color:white;
+    display: flex;
+    justify-content: space-evenly;
+}
+.call{
+    width:200px ;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.callnow{
+    /* border: 1px solid red; */
+    width: 120px;
+    font-size: 20px;
+}
+#icon{
+    font-size: 30px;
+    color: green;
+}
+#light{
+    color: gray;
+}
+.send{
+    width:200px ;
+    /* border: 1px solid red; */
+     width:300px ;
+     /* border: 1px solid red; */
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.message{
+    width: 200px;
+    /* border: 1px solid red; */
+    font-size: 20px;
+}
+.location{
+    width:200px ;
+    /* border: 1px solid red; */
+    width:300px ;
+    /* border: 1px solid red; */
+     /* width:300px ; */
+     /* border: 1px solid red; */
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.locate{
+    width: 250px;
+    /* border: 1px solid red; */
+    font-size: 20px;
+}
+.form{
+    /* border: 1px solid red; */
+    border-radius: 10px;
+    height: 450px;
+    width: 350px;
+    position: absolute;
+    left: 150px;
+    top: 250px;
+    background-color:rgba(0, 0, 0, 0.7);
+    text-align: center;
+}
+.form input{
+    height: 40px;
+    width: 90%;
+    margin-top: 30px;
+    border: none;
+    border-radius: 4px;
+    text-indent: 20px;
+}
+.form button{
+    width: 90%;
+    height: 40px;
+    margin-top: 30px;
+    border: none;
+    border-radius: 4px;
+    font-size: 20px;
+    color: green;
+}
+.form h3{
+    color: white;
+    font-size: 30px;
+}
+.form a{
+    color: green;
+    text-decoration: none;
+}
+
+#error{
+    color: red;
+    /* border: 1px solid red; */
+    font-size: 25px;
+    background-color: white;
+    /* border-radius: 8px; */
+}
+.sheet{
+    height: 630px;
+    /* width: 200px; */
+    /* border: 1px solid red; */
+    /* background-color: red; */
+    color: white;
+    /* margin-top: 150px; */
+    width: 100%;
+    /* margin:150px auto; */
+    position: absolute;
+    top: 920px;
+    left: 10px;
+}
+.tpart{
+    /* border: 1px solid red; */
+    background-color:rgb(255, 255, 203);
+    height: 50px;
+    background-image: url(./assets/logo.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+
+}
+.mpart{
+    border: 1px solid black;
+    height: 575px;
+    /* width: 100%; */
+    /* margin: 0 auto; */
+    background-color: aliceblue;
+}
+.bpart{
+    /* border: 1px solid red; */
+}
+.npart{
+    /* border: 1px solid red; */
+    /* height: 120px; */
+    /* display: flex; */
+}
+.spart{
+    border: 1px solid black;
+    width: 100%;
+    margin: 0 auto;
+    /* height: 575px; */
+    color: black;
+}
+#ann{
+    margin-left: 60px;
+    border-bottom:1px solid black ;
+}
+.naam{
+    /* border: 1px solid red; */
+    width: 100px;
+    margin-left: 20px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.line1{
+    border-bottom: 1px solid black;
+    color: black;
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-around;
+    justify-content: flex-start;
+    padding: 2px;
+}
+.line2{
+    border-bottom: 1px solid black;
+    color: black;
+    /* margin-top: 5px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    justify-content: flex-start;
+    padding: 2px;
+}
+.line3{
+    border-bottom: 1px solid black;
+    color: black;
+    /* margin-top: 5px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    justify-content: flex-start;
+    padding: 2px;
+}
+.line4{
+    border-bottom: 1px solid black;
+    color: black;
+    /* margin-top: 5px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    justify-content: flex-start;
+    padding: 2px;
+}
+.line5{
+    border-bottom: 1px solid black;
+    color: black;
+    /* margin-top: 5px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    justify-content: flex-start;
+    padding: 2px;
+}
+.serial{
+    /* border: 1px solid red; */
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* width: 100%; */
+}
+.s-no{
+    border: 1px solid black;
+    height:50px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    width:150px;
+}
+.s-name{
+    border: 1px solid black;
+    height:50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: flex-start; 
+    width: 100%;
+    text-indent: 20px;
+}
+.total{
+    border: 1px solid black;
+    height:50px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    width: 150px;
+}
+.remarks{
+    border: 1px solid black;
+    height:50px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    width: 150px;
+}
+@media screen and (max-width:1200px) {
+    .location{
+        display: none;
+    }
+    .send{
+        display: none;
+    }
+}
+@media screen and (max-width:750px) {
+    .call{
+        display: none;
+    }
+}
+@media screen and (max-width:588px) {
+    .form{
+        position: absolute;
+        left: 100px;
+    }
+}
+@media screen and (max-width:500px) {
+    .form{
+        position: absolute;
+        left: 50px;
+        top: 180px;
+    }
+    .nav img{
+        width: 400px;
+    }
+}
+@media screen and (max-width:430px) {
+    .form{
+        position: absolute;
+        left: 20px;
+        top: 180px;
+    }
+    .nav img{
+        width: 400px;
+    }
+}
+@media screen and (max-width:360px) {
+    .form{
+        position: absolute;
+        /* left: -1px; */
+        top: 180px;
+        width: 90%;
+    }
+    .nav img{
+        width: 300px;
+    }
+    .sheet{
+        width: 96%;
+    }
+}
