@@ -8,6 +8,23 @@ function checkResult() {
     // var rePlace = fname.replace(/\s\s+/g, " ");
     if(value === "" || value === "  "){
         document.getElementById("error").innerText = "Charactor not Allowed"
+    } else{
+        document.getElementById("error").innerText = ""
+
+    }
+    if(fvalue === "" || fvalue === "  "){
+        document.getElementById("error2").innerText = "Charactor not Allowed"
+    }
+    else{
+        document.getElementById("error2").innerText = ""
+
+    }
+    if(rvalue === "" || rvalue === "  "){
+        document.getElementById("error3").innerText = "Charactor not Allowed"
+    }
+    else{
+        document.getElementById("error3s").innerText = ""
+
     }
     
     document.getElementById("uname").innerHTML = value;
